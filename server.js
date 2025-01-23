@@ -21,7 +21,7 @@ app.use(express.json());
 // app.use(cookieParser());
 
 
-const PORT = process.env.PORT;
+const PORT = process.env.MAIN_PORT;
 const MONGO_URI= process.env.MONGO_URI;
 
 connectDB();
