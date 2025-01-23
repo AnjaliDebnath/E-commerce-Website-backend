@@ -5,7 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node server.js"
+    "start": "node server.js",
+    "auth": "node server.js",
+    "data": "node seedData.js"
   },
   "keywords": [],
   "author": "",
