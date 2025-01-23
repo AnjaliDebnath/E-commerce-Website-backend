@@ -5,7 +5,7 @@ dotenv.config();
 
 const express= require('express');
 const mongodb= require('mongodb');
-const bcrypt= require('bcrypt');
+
 const cookieParser= require('cookie-parser');
 const cors = require("cors");
 const Product = require('./models/product');

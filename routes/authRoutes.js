@@ -1,7 +1,7 @@
 const express = require("express");
 const User = require("../models/user.js"); // Adjust the path to your product model
 const router = express.Router();
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 const ACCESS_TOKEN_SECRET = process.env.ACCESS_TOKEN_SECRET;
